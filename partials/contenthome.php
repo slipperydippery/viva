@@ -72,6 +72,7 @@
 				?>
 
 			</div>  <!-- .vim-body-map -->
+			
 			<div class="vim-element__wrap vim-element--single__wrap playclick">
 				<div class="vim-element vim-element--single">
 					<a href="#" class="choice "> 

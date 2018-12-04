@@ -193,6 +193,7 @@ img.pause {
     height: 250px;
     float: right;
     margin-right: 50px;
+    margin-top: 200px;
 }
 
 .vim-element--single {
@@ -569,35 +570,52 @@ textarea {
     display: block;
 }
 
-@keyframes hideshow {
-  0% { opacity: 1; transform:scale(1.2,1.2);}
-  20% { opacity: .9; }
+@keyframes hideshowbk {
+  0% { opacity: 1; }
+  20% { opacity: .9; transform:scale(1.2,1.2);}
   40% { opacity: .8; }
-  60% { opacity: .5; transform:scale(1,1);}
-  80% { opacity: .8; }
+  60% { opacity: .5; }
+  80% { opacity: .8; transform:scale(1,1);}
   100% { opacity: .9; }
+} 
+@keyframes hideshow {
+  15% { transform:scale(1,1);}
+  20% { transform:scale(1.2,1.2);}
+  45% { transform:scale(1,1);}
 } 
 
 .dot {
-  animation: hideshow 1.5s ease infinite;
+  animation: hideshow 2.5s ease infinite;
 }
-#dot_1_ {
-    animation-delay: .2s;
+.dot:hover .dot{
+    animation: none;
+}
+#dot {
+    transform-origin: 206.034px 132.735px;
 }
 #dot_2_ {
-    animation-delay: .4s;
-}
-#dot_3_ {
-    animation-delay: .6s;
+    transform-origin: 165.963px 134.315px;
+    /*animation-delay: .1s;*/
 }
 #dot_4_ {
-    animation-delay: .8s;
+    transform-origin: 170.963px 180.366px;
+    /*animation-delay: .2s;*/
 }
-#dot_5_ {
-    animation-delay: 1s;
+#dot_3_ {
+    transform-origin: 144.176px 250.754px;
+    /*animation-delay: .3s;*/
 }
 #dot_6_ {
-    animation-delay: 1.2s;
+    transform-origin: 170.963px 267.916px;
+    /*animation-delay: .4s;*/
+}
+#dot_5_ {
+    transform-origin: 152.757px 288.716px;
+    /*animation-delay: .5s;*/
+}
+#dot_1_ {
+    transform-origin: 131.097px 309.593px;
+    /*animation-delay: .6s;*/
 }
 
 
