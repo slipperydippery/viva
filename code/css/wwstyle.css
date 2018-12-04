@@ -134,6 +134,9 @@ img.pause {
     background: rgba(255, 255, 255, .4);
     transition: opacity 2s
 }
+.vim-overlay--full {
+    background: white;
+}
 
 .playclick,
 .replayclick {
@@ -157,6 +160,13 @@ img.pause {
     margin: 0 auto
 }
 
+.vim-body-map {
+    position: absolute;
+    top: 57px;
+    height: 100%;
+    width: 100%;
+}
+
 .vim-element__wrap {
     margin: 30px 0 0 32px;
     vertical-align: top;
@@ -178,9 +188,25 @@ img.pause {
     margin-top: 1px
 }
 
+.vim-element--single__wrap {
+    width: 300px;
+    height: 250px;
+    float: right;
+    margin-right: 50px;
+}
+
+.vim-element--single {
+
+}
+
 .vimeo-thumb {
     width: 200px;
     height: 150px
+}
+
+.vimeo-thumb--home {
+    width: 312px;
+    height: 262px;
 }
 
 .vim-element__txt {
@@ -498,6 +524,83 @@ textarea {
 .vim-noblack {
     display: none;
 }
+
+
+#hover_1_ {
+    display: none;
+}
+#beverwijk:hover #hover_1_{
+    display: block;
+}
+#hover_2_ {
+    display: none;
+}
+#bergen:hover #hover_2_{
+    display: block;
+}
+#hover_3_ {
+    display: none;
+}
+#castricum:hover #hover_3_{
+    display: block;
+}
+#hover_4_ {
+    display: none;
+}
+#heiloo:hover #hover_4_{
+    display: block;
+}
+#hover {
+    display: none;
+}
+#heerhugowaard:hover #hover{
+    display: block;
+}
+#hover_5_ {
+    display: none;
+}
+#heemskerk:hover #hover_5_{
+    display: block;
+}
+#hover_6_ {
+    display: none;
+}
+#uitgeest:hover #hover_6_{
+    display: block;
+}
+
+@keyframes hideshow {
+  0% { opacity: 1; transform:scale(1.2,1.2);}
+  20% { opacity: .9; }
+  40% { opacity: .8; }
+  60% { opacity: .5; transform:scale(1,1);}
+  80% { opacity: .8; }
+  100% { opacity: .9; }
+} 
+
+.dot {
+  animation: hideshow 1.5s ease infinite;
+}
+#dot_1_ {
+    animation-delay: .2s;
+}
+#dot_2_ {
+    animation-delay: .4s;
+}
+#dot_3_ {
+    animation-delay: .6s;
+}
+#dot_4_ {
+    animation-delay: .8s;
+}
+#dot_5_ {
+    animation-delay: 1s;
+}
+#dot_6_ {
+    animation-delay: 1.2s;
+}
+
+
 
 @media not (-ms-high-contrast: none),
 (-ms-high-contrast: active) {
