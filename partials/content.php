@@ -62,18 +62,23 @@
 				$overlay_visibility = "style='left:0px; opacity: 1;'";
 			}
 ?>		
-		<div class="vim-overlay" <?=$overlay_visibility?> >
+		<div class="vim-overlay vim-overlay--full " style='left:0px; opacity: 1;' <?=$overlay_visibility?> >
 			<div class="vim-head">
 <?php
 			$question = (isset($current['type_alt'])) ? $type[$current['type_alt']]['question'] : $type[$current['type']]['question'];
+			$current_map = $current['mapdistrict'];
 ?>			
 				<h2><?= $question ?> </h2>
 			</div>
-			<div class="vim-body">
+
+			<div class="vim-body vim-body-map vim-body-map-<?=$current_map?>">
+				<?php
+					include 'partials/kaart.php';
+				?>
 <?php
 			$blanco = ($current['type'] != 'blanco_overzicht') ? 'playclick' : '';		
 ?>
-				<div class="vim-playclick <?= $blanco ?>"></div>
+				<!-- <div class="vim-playclick <?= $blanco ?>"></div> -->
 <?php 
 				$optie_counter = 1;
 				if($current['children'] !== null || $current['type'] == 'woning'){
@@ -117,13 +122,13 @@
 					    </div>
 <?php	
 							$numbThumbnails = ($current['type'] == 'woning') ? count($parent['children']) : count($current['children']);
-							if($numbThumbnails == 4 &&  $optie_counter == 2)
+							if($numbThumbnails <= 5 &&  $optie_counter == 2)
 							{
-								echo '<br/>';
+								echo '<br/><div class="breaker" style="clear:both"></div>';
 							}
-							if($numbThumbnails > 4 && $optie_counter == 3)
+							if($numbThumbnails > 5 && $optie_counter == 3)
 							{
-								echo '<br/>';
+								echo '<br/><div class="breaker" style="clear:both"></div>';
 							}
 							$optie_counter++;
 						}

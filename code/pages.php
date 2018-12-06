@@ -68,7 +68,7 @@ $heemskerk_locaties = [
 ];
 
 $heilo_locaties = [
-	'Varnebroek',
+	'Overkerck',
 	'De Loet',
 	'Westerweg'
 ];
@@ -79,6 +79,10 @@ $uitgeest_locaties = [
 
 $heerhugowaard_locaties = [
 	'Forum II'
+];
+
+$bergen_locaties = [
+	'De Marke'
 ];
 
 $gemeenten = [
@@ -94,7 +98,8 @@ $gemeenten = [
 		'heemskerk',
 		'heerhugowaard',
 		'heiloo',
-		'uitgeest'
+		'uitgeest',
+		'bergen'
 		]
 ];
 
@@ -105,6 +110,7 @@ $gemeenten = [
 
 $bever = [
 	'title' => 'Beverwijk',
+	'mapdistrict' => 'beverwijk',
 	'vimeo' => '153550382',
 	'adress' => 'bever.php',
 	'type' => 'zorg_overzicht',
@@ -122,6 +128,7 @@ $bever = [
 
 $beverA1 = [
 	'title' => 'Tijdelijke Zorg',
+	'mapdistrict' => 'beverwijk',
 	'vimeo' => '151518170',
 	'adress' => 'beverA1.php',
 	'type' => 'woning_overzicht',
@@ -136,6 +143,7 @@ $beverA1 = [
 
 $beverA2 = [
 	'title' => 'Huis ter Wijck',
+	'mapdistrict' => 'beverwijk',
 	'vimeo' => '153550384',
 	'adress' => 'beverA2.php',
 	'type' => 'woning',
@@ -146,6 +154,7 @@ $beverA2 = [
 
 $beverA3 = [
 	'title' => 'Lommerlust',
+	'mapdistrict' => 'beverwijk',
 	'vimeo' => '153550383',
 	'adress' => 'beverA3.php',
 	'type' => 'woning',
@@ -156,6 +165,7 @@ $beverA3 = [
 
 $beverA4 = [
 	'title' => 'ViVa! Elsanta',
+	'mapdistrict' => 'beverwijk',
 	'vimeo' => '151518176',
 	'adress' => 'beverA4.php',
 	'type' => 'woning',
@@ -167,6 +177,7 @@ $beverA4 = [
 /*------------------------------ Wonen met Persoonlijke Zorg ------------------------------*/
 $beverB1 = [
 	'title' => 'Wonen met Persoonlijke Zorg',
+	'mapdistrict' => 'beverwijk',
 	'title_too_long' => true,
 	'vimeo' => '151518177',
 	'adress' => 'beverB1.php',
@@ -181,6 +192,7 @@ $beverB1 = [
 
 $beverC1C2 = [
 	'link_title' => 'Met Huurtoeslag',
+	'mapdistrict' => 'beverwijk',
 	'title' => 'Huis ter Wijck',
 	'vimeo' => '151518178',
 	'adress' => 'beverC1C2.php',
@@ -192,6 +204,7 @@ $beverC1C2 = [
 
 $beverD1 = [
 	'title' => 'Zonder Huurtoeslag',
+	'mapdistrict' => 'beverwijk',
 	'vimeo' => '151518179',
 	'adress' => 'beverD1.php',
 	'type' => 'woning_overzicht',
@@ -205,6 +218,7 @@ $beverD1 = [
 
 $beverD2 = [
 	'title' => 'ViVa! Elsanta',
+	'mapdistrict' => 'beverwijk',
 	'vimeo' => '151518180',
 	'adress' => 'beverD2.php',
 	'type' => 'woning',
@@ -215,6 +229,7 @@ $beverD2 = [
 
 $beverD3 = [
 	'title' => 'Lommerlust',
+	'mapdistrict' => 'beverwijk',
 	'vimeo' => '153550381',
 	'adress' => 'beverD3.php',
 	'type' => 'woning',
@@ -226,6 +241,7 @@ $beverD3 = [
 /*------------------------------ Gespecialiseerde Zorg ------------------------------*/
 $beverE1 = [
 	'title' => 'Gespecialiseerde Zorg',
+	'mapdistrict' => 'beverwijk',
 	'vimeo' => '151518164',
 	'adress' => 'beverE1.php',
 	'type' => 'woning_overzicht',
@@ -241,6 +257,7 @@ $beverE1 = [
 
 $beverE2 = [
 	'title' => 'Breepeper',
+	'mapdistrict' => 'beverwijk',
 	'vimeo' => '153550385',
 	'adress' => 'beverE2.php',
 	'type' => 'woning',
@@ -251,6 +268,7 @@ $beverE2 = [
 
 $beverE3 = [
 	'title' => 'Huis ter Wijck',
+	'mapdistrict' => 'beverwijk',
 	'vimeo' => '151518166',
 	'adress' => 'beverE3.php',
 	'type' => 'woning',
@@ -261,6 +279,7 @@ $beverE3 = [
 
 $beverE4 = [
 	'title' => 'Lommerlust',
+	'mapdistrict' => 'beverwijk',
 	'vimeo' => '151518167',
 	'adress' => 'beverE4.php',
 	'type' => 'woning',
@@ -271,6 +290,7 @@ $beverE4 = [
 
 $beverE5 = [
 	'title' => 'ViVa! Elsanta',
+	'mapdistrict' => 'beverwijk',
 	'vimeo' => '151518169',
 	'adress' => 'beverE5.php',
 	'type' => 'woning',
@@ -282,6 +302,7 @@ $beverE5 = [
 /*------------------------------ Wonen zonder Zorg ------------------------------*/
 $beverF1 = [
 	'title' => 'Wonen zonder Zorg',
+	'mapdistrict' => 'beverwijk',
 	'vimeo' => '151518174',
 	'adress' => 'beverF1.php',
 	'type' => 'subsidie_overzicht',
@@ -295,6 +316,7 @@ $beverF1 = [
 
 $beverG1G2 = [
 	'link_title' => 'Met Huurtoeslag',
+	'mapdistrict' => 'beverwijk',
 	'title' => 'Huis ter Wijck',
 	'vimeo' => '151518178',
 	'adress' => 'beverG1G2.php',
@@ -306,6 +328,7 @@ $beverG1G2 = [
 
 $beverH1 = [
 	'title' => 'Zonder Huurtoeslag',
+	'mapdistrict' => 'beverwijk',
 	'vimeo' => '151518179',
 	'adress' => 'beverH1.php',
 	'type' => 'woning_overzicht',
@@ -319,6 +342,7 @@ $beverH1 = [
 
 $beverH2 = [
 	'title' => 'ViVa! Elsanta',
+	'mapdistrict' => 'beverwijk',
 	'vimeo' => '151518180',
 	'adress' => 'beverH2.php',
 	'type' => 'woning',
@@ -329,6 +353,7 @@ $beverH2 = [
 
 $beverH3 = [
 	'title' => 'Lommerlust',
+	'mapdistrict' => 'beverwijk',
 	'vimeo' => '153550381',
 	'adress' => 'beverH3.php',
 	'type' => 'woning',
@@ -342,6 +367,7 @@ $beverH3 = [
 /*-----------------------------------------------------------------------------*/
 $caslimak = [
 	'title' => 'Castricum / Limmen / Akersloot',
+	'mapdistrict' => 'caslimak',
 	'title_too_long' => true,
 	'vimeo' => '151522762',
 	'adress' => 'caslimak.php',
@@ -360,6 +386,7 @@ $caslimak = [
 
 $caslimakA1 = [
 	'title' => 'Tijdelijke Zorg',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '151522773',
 	'adress' => 'caslimakA1.php',
 	'type' => 'woning_overzicht',
@@ -373,6 +400,7 @@ $caslimakA1 = [
 
 $caslimakA2 = [
 	'title' => 'De Boogaert',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '151522778',
 	'adress' => 'caslimakA2.php',
 	'type' => 'woning',
@@ -383,6 +411,7 @@ $caslimakA2 = [
 
 $caslimakA3 = [
 	'title' => 'De Santmark',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '151522779',
 	'adress' => 'caslimakA3.php',
 	'type' => 'woning',
@@ -395,6 +424,7 @@ $caslimakA3 = [
 
 $caslimakB1 = [
 	'title' => 'Wonen met Persoonlijke Zorg',
+	'mapdistrict' => 'caslimak',
 	'title_too_long' => true,
 	'vimeo' => '151522763',
 	'adress' => 'caslimakB1.php',
@@ -409,6 +439,7 @@ $caslimakB1 = [
 
 $caslimakC1 = [
 	'title' => 'Met Huurtoeslag',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '151522766',
 	'adress' => 'caslimakC1.php',
 	'type' => 'woning_overzicht',
@@ -422,6 +453,7 @@ $caslimakC1 = [
 
 $caslimakC2 = [
 	'title' => 'De Santmark',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '151522779',
 	'adress' => 'caslimakC2.php',
 	'type' => 'woning',
@@ -432,6 +464,7 @@ $caslimakC2 = [
 
 $caslimakC3 = [
 	'title' => 'Strammerzoom',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '151522764',
 	'adress' => 'caslimakC3.php',
 	'type' => 'woning',
@@ -442,6 +475,7 @@ $caslimakC3 = [
 
 $caslimakD1 = [
 	'title' => 'Zonder Huurtoeslag',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '151522767',
 	'adress' => 'caslimakD1.php',
 	'type' => 'woning_overzicht',
@@ -455,6 +489,7 @@ $caslimakD1 = [
 
 $caslimakD2 = [
 	'title' => 'De Boogaert',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '151522778',
 	'adress' => 'caslimakD2.php',
 	'type' => 'woning',
@@ -465,6 +500,7 @@ $caslimakD2 = [
 
 $caslimakD3 = [
 	'title' => 'De Cameren',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '151522765',
 	'adress' => 'caslimakD3.php',
 	'type' => 'woning',
@@ -477,6 +513,7 @@ $caslimakD3 = [
 
 $caslimakE1 = [
 	'title' => 'Gespecialiseerde Zorg',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '151522769',
 	'adress' => 'caslimakE1.php',
 	'type' => 'woning_overzicht',
@@ -491,6 +528,7 @@ $caslimakE1 = [
 
 $caslimakE2 = [
 	'title' => 'De Boogaert',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '151522774',
 	'adress' => 'caslimakE2.php',
 	'type' => 'woning',
@@ -501,6 +539,7 @@ $caslimakE2 = [
 
 $caslimakE3 = [
 	'title' => 'De Santmark',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '151522770',
 	'adress' => 'caslimakE3.php',
 	'type' => 'woning',
@@ -511,6 +550,7 @@ $caslimakE3 = [
 
 $caslimakE4 = [
 	'title' => 'De Cameren',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '151522771',
 	'adress' => 'caslimakE4.php',
 	'type' => 'woning',
@@ -524,6 +564,7 @@ $caslimakE4 = [
 
 $caslimakF1 = [
 	'title' => 'Wonen zonder Zorg',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '153550907',
 	'adress' => 'caslimakF1.php',
 	'type' => 'subsidie_overzicht',
@@ -537,6 +578,7 @@ $caslimakF1 = [
 
 $caslimakF0 = [
 	'title' => 'Zonder Huurtoeslag',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '151522778',
 	'adress' => 'caslimakF0.php',
 	'type' => 'blanco_overzicht',
@@ -550,6 +592,7 @@ $caslimakF0 = [
 
 $caslimakF2 = [
 	'title' => 'De Boogaert',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '151522778',
 	'adress' => 'caslimakF2.php',
 	'type' => 'woning',
@@ -560,6 +603,7 @@ $caslimakF2 = [
 
 $caslimakF3 = [
 	'title' => 'De Cameren',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '151522765',
 	'adress' => 'caslimakF3.php',
 	'type' => 'woning',
@@ -570,6 +614,7 @@ $caslimakF3 = [
 
 $caslimakG0 = [
 	'title' => 'Met Huurtoeslag',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '151522779',
 	'adress' => 'caslimakG0.php',
 	'type' => 'blanco_overzicht',
@@ -583,6 +628,7 @@ $caslimakG0 = [
 
 $caslimakG1 = [
 	'title' => 'De Santmark',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '151522779',
 	'adress' => 'caslimakG1.php',
 	'type' => 'woning',
@@ -593,6 +639,7 @@ $caslimakG1 = [
 
 $caslimakG2 = [
 	'title' => 'Strammerzoom',
+	'mapdistrict' => 'caslimak',
 	'vimeo' => '151522764',
 	'adress' => 'caslimakG2.php',
 	'type' => 'woning',
@@ -608,6 +655,7 @@ $caslimakG2 = [
 
 $heemskerk = [
 	'title' => 'Heemskerk',
+	'mapdistrict' => 'heemskerk',
 	'vimeo' => '154978787',
 	'adress' => 'heemskerk.php',
 	'type' => 'zorg_overzicht',
@@ -625,6 +673,7 @@ $heemskerk = [
 
 $heemskerkA1 = [
 	'title' => 'Tijdelijke Zorg',
+	'mapdistrict' => 'heemskerk',
 	'vimeo' => '151528966',
 	'adress' => 'heemskerkA1.php',
 	'type' => 'woning_overzicht',
@@ -639,6 +688,7 @@ $heemskerkA1 = [
 
 $heemskerkA2 = [
 	'title' => 'Waterrijck',
+	'mapdistrict' => 'heemskerk',
 	'vimeo' => '154236770',
 	'adress' => 'heemskerkA2.php',
 	'type' => 'woning',
@@ -649,6 +699,7 @@ $heemskerkA2 = [
 
 $heemskerkA3 = [
 	'title' => 'Heemswijk',
+	'mapdistrict' => 'heemskerk',
 	'vimeo' => '151528964',
 	'adress' => 'heemskerkA3.php',
 	'type' => 'woning',
@@ -659,6 +710,7 @@ $heemskerkA3 = [
 
 $heemskerkA4 = [
 	'title' => 'Meerstate',
+	'mapdistrict' => 'heemskerk',
 	'vimeo' => '151528963',
 	'adress' => 'heemskerkA4.php',
 	'type' => 'woning',
@@ -672,6 +724,7 @@ $heemskerkA4 = [
 
 $heemskerkB1 = [
 	'title' => 'Wonen met Persoonlijke Zorg',
+	'mapdistrict' => 'heemskerk',
 	'title_too_long' => true,
 	'vimeo' => '153771804',
 	'adress' => 'heemskerkB1.php',
@@ -686,6 +739,7 @@ $heemskerkB1 = [
 
 $heemskerkD1 = [
 	'title' => 'Zonder Huurtoeslag',
+	'mapdistrict' => 'heemskerk',
 	'vimeo' => '151528968',
 	'adress' => 'heemskerkD1.php',
 	'type' => 'woning_overzicht',
@@ -698,6 +752,7 @@ $heemskerkD1 = [
 
 $heemskerkD2 = [
 	'link_title' => 'Zonder Huurtoeslag',
+	'mapdistrict' => 'heemskerk',
 	'title' => 'St. Agnes',
 	'vimeo' => '151528967',
 	'adress' => 'heemskerkD2.php',
@@ -709,6 +764,7 @@ $heemskerkD2 = [
 
 $heemskerkD3 = [
 	'link_title' => 'Met Huurtoeslag',
+	'mapdistrict' => 'heemskerk',
 	'title' => 'Westerheem',
 	'vimeo' => '151528970',
 	'adress' => 'heemskerkD3.php',
@@ -724,6 +780,7 @@ $heemskerkD3 = [
 
 $heemskerkE1 = [
 	'title' => 'Gespecialiseerde Zorg',
+	'mapdistrict' => 'heemskerk',
 	'vimeo' => '152086628',
 	'adress' => 'heemskerkE1.php',
 	'type' => 'woning_overzicht',
@@ -740,6 +797,7 @@ $heemskerkE1 = [
 
 $heemskerkE2 = [
 	'title' => 'Heemswijk',
+	'mapdistrict' => 'heemskerk',
 	'vimeo' => '151528972',
 	'adress' => 'heemskerkE2.php',
 	'type' => 'woning',
@@ -750,6 +808,7 @@ $heemskerkE2 = [
 
 $heemskerkE3 = [
 	'title' => 'Meerstate',
+	'mapdistrict' => 'heemskerk',
 	'vimeo' => '153550911',
 	'adress' => 'heemskerkE3.php',
 	'type' => 'woning',
@@ -760,6 +819,7 @@ $heemskerkE3 = [
 
 $heemskerkE4 = [
 	'title' => 'Sint Agnes',
+	'mapdistrict' => 'heemskerk',
 	'vimeo' => '151528974',
 	'adress' => 'heemskerkE4.php',
 	'type' => 'woning',
@@ -770,6 +830,7 @@ $heemskerkE4 = [
 
 $heemskerkE5 = [
 	'title' => 'Waterrijck',
+	'mapdistrict' => 'heemskerk',
 	'vimeo' => '154236767',	
 	'adress' => 'heemskerkE5.php',
 	'type' => 'woning',
@@ -780,6 +841,7 @@ $heemskerkE5 = [
 
 $heemskerkE6 = [
 	'title' => 'Westerheem',
+	'mapdistrict' => 'heemskerk',
 	'vimeo' => '151528973',
 	'adress' => 'heemskerkE6.php',
 	'type' => 'woning',
@@ -792,6 +854,7 @@ $heemskerkE6 = [
 
 $heemskerkF1 = [
 	'title' => 'Wonen zonder Zorg',
+	'mapdistrict' => 'heemskerk',
 	'vimeo' => '153814186',
 	'adress' => 'heemskerkF1.php',
 	'type' => 'woning_overzicht',
@@ -805,6 +868,7 @@ $heemskerkF1 = [
 
 $heemskerkF2 = [
 	'link_title' => 'Met Huurtoeslag',
+	'mapdistrict' => 'heemskerk',
 	'title' => 'Westerheem',
 	'vimeo' => '151528970',
 	'adress' => 'heemskerkF2.php',
@@ -816,6 +880,7 @@ $heemskerkF2 = [
 
 $heemskerkF3 = [
 	'link_title' => 'Zonder Huurtoeslag',
+	'mapdistrict' => 'heemskerk',
 	'title' => 'Sint. Agnes',
 	'vimeo' => '151528967',
 	'adress' => 'heemskerkF3.php',
@@ -833,6 +898,7 @@ $heemskerkF3 = [
 
 $heerhugowaard = [
 	'title' => 'Heerhugowaard',
+	'mapdistrict' => 'heerhugowaard',
 	'vimeo' => '153551586',
 	'adress' => 'heerhugowaard.php',
 	'type' => 'zorg_overzicht',
@@ -848,6 +914,7 @@ $heerhugowaard = [
 
 $heerhugowaardA1 = [
 	'link_title' => 'Tijdelijke Zorg',
+	'mapdistrict' => 'heerhugowaard',
 	'title' => 'Forum II',
 	'vimeo' => '151560150',
 	'adress' => 'heerhugowaardA1.php',
@@ -862,6 +929,7 @@ $heerhugowaardA1 = [
 
 $heerhugowaardB1 = [
 	'link_title' => 'Gespecialiseerde Zorg',
+	'mapdistrict' => 'heerhugowaard',
 	'title' => 'Forum II',
 	'vimeo' => '153550909',
 	'adress' => 'heerhugowaardB1.php',
@@ -880,6 +948,7 @@ $heerhugowaardB1 = [
 
 $heiloo = [
 	'title' => 'Heiloo',
+	'mapdistrict' => 'heiloo',
 	'vimeo' => '154236769',
 	'adress' => 'heiloo.php',
 	'type' => 'zorg_overzicht',
@@ -896,6 +965,7 @@ $heiloo = [
 
 $heilooA1 = [
 	'title' => 'Wonen met Persoonlijke Zorg',
+	'mapdistrict' => 'heiloo',
 	'title_too_long' => true,
 	'vimeo' => '154236768',
 	'adress' => 'heilooA1.php',
@@ -910,7 +980,8 @@ $heilooA1 = [
 
 $heilooB1B2 = [
 	'link_title' => 'Met Huurtoeslag',
-	'title' => 'Varnebroek',
+	'mapdistrict' => 'heiloo',
+	'title' => 'Overkerck',
 	'vimeo' => '152101521',
 	'adress' => 'heilooB1B2.php',
 	'type' => 'woning',
@@ -921,6 +992,7 @@ $heilooB1B2 = [
 
 $heilooC1 = [
 	'title' => 'Zonder Huurtoeslag',
+	'mapdistrict' => 'heiloo',
 	'vimeo' => '152207192',
 	'adress' => 'heilooC1.php',
 	'type' => 'woning_overzicht',
@@ -934,6 +1006,7 @@ $heilooC1 = [
 
 $heilooC2 = [
 	'title' => 'De Loet',
+	'mapdistrict' => 'heiloo',
 	'vimeo' => '152207186',
 	'adress' => 'heilooC2.php',
 	'type' => 'woning',
@@ -944,6 +1017,7 @@ $heilooC2 = [
 
 $heilooC3 = [
 	'title' => 'Westerweg',
+	'mapdistrict' => 'heiloo',
 	'vimeo' => '152207644',
 	'adress' => 'heilooC3.php',
 	'type' => 'woning',
@@ -956,6 +1030,7 @@ $heilooC3 = [
 
 $heilooD1 = [
 	'title' => 'Gespecialiseerde Zorg',
+	'mapdistrict' => 'heiloo',
 	'vimeo' => '152207665',
 	'adress' => 'heilooD1.php',
 	'type' => 'woning_overzicht',
@@ -968,7 +1043,8 @@ $heilooD1 = [
 ];
 
 $heilooD2 = [
-	'title' => 'Varnebroek',
+	'title' => 'Overkerck',
+	'mapdistrict' => 'heiloo',
 	'vimeo' => '152207664',
 	'adress' => 'heilooD2.php',
 	'type' => 'woning',
@@ -979,6 +1055,7 @@ $heilooD2 = [
 
 $heilooD3 = [
 	'title' => 'De Loet',
+	'mapdistrict' => 'heiloo',
 	'vimeo' => '152102166',
 	'adress' => 'heilooD3.php',
 	'type' => 'woning',
@@ -991,6 +1068,7 @@ $heilooD3 = [
 
 $heilooE2 = [
 	'title' => 'Wonen zonder Zorg',
+	'mapdistrict' => 'heiloo',
 	'vimeo' => '152101522',
 	'adress' => 'heilooE2.php',
 	'type' => 'subsidie_overzicht',
@@ -1004,7 +1082,8 @@ $heilooE2 = [
 
 $heilooF1F2 = [
 	'link_title' => 'Met Huurtoeslag',
-	'title' => 'Varnebroek',
+	'mapdistrict' => 'heiloo',
+	'title' => 'Overkerck',
 	'vimeo' => '152101521',
 	'adress' => 'heilooF1F2.php',
 	'type' => 'woning',
@@ -1015,6 +1094,7 @@ $heilooF1F2 = [
 
 $heilooG1 = [
 	'title' => 'Zonder Huurtoeslag',
+	'mapdistrict' => 'heiloo',
 	'vimeo' => '152207192',
 	'adress' => 'heilooG1.php',
 	'type' => 'woning_overzicht',
@@ -1028,6 +1108,7 @@ $heilooG1 = [
 
 $heilooG2 = [
 	'title' => 'De Loet',
+	'mapdistrict' => 'heiloo',
 	'vimeo' => '152207186',
 	'adress' => 'heilooG2.php',
 	'type' => 'woning',
@@ -1038,6 +1119,7 @@ $heilooG2 = [
 
 $heilooG3 = [
 	'title' => 'Westerweg',
+	'mapdistrict' => 'heiloo',
 	'vimeo' => '152207644',
 	'adress' => 'heilooG3.php',
 	'type' => 'woning',
@@ -1055,6 +1137,7 @@ $heilooG3 = [
 
 $uitgeest = [
 	'title' => 'Uitgeest',
+	'mapdistrict' => 'uitgeest',
 	'vimeo' => '151561136',
 	'adress' => 'uitgeest.php',
 	'type' => 'zorg_overzicht',
@@ -1071,6 +1154,7 @@ $uitgeest = [
 
 $uitgeestA1A2 = [
 	'link_title' => 'Wonen met Persoonlijke Zorg',
+	'mapdistrict' => 'uitgeest',
 	'title_too_long' => true,
 	'title' => 'Geesterheem',
 	'vimeo' => '155702401',
@@ -1086,6 +1170,7 @@ $uitgeestA1A2 = [
 
 $uitgeestB1B2 = [
 	'link_title' => 'Gespecialiseerde Zorg',
+	'mapdistrict' => 'uitgeest',
 	'title' => 'Geesterheem',
 	'vimeo' => '155702403',
 	'adress' => 'uitgeestB1B2.php',
@@ -1101,6 +1186,7 @@ $uitgeestB1B2 = [
 
 $uitgeestC1C2 = [
 	'link_title' => 'Wonen zonder Zorg',
+	'mapdistrict' => 'uitgeest',
 	'title' => 'Geesterheem',
 	'vimeo' => '155702404',
 	'adress' => 'uitgeestC1C2.php',
@@ -1108,6 +1194,41 @@ $uitgeestC1C2 = [
 	'type_alt' => 'single',
 	'cookiecode' => 'UC1',
 	'parent' => 'uitgeest',
+	'children' => []
+];
+
+
+/*-----------------------------------------------------------------------------*/
+/*                                   BERGEN                                   */
+/*-----------------------------------------------------------------------------*/
+
+
+$bergen = [
+	'title' => 'Bergen',
+	'mapdistrict' => 'bergen',
+	'vimeo' => '151561136',
+	'adress' => 'bergen.php',
+	'type' => 'zorg_overzicht',
+	'cookiecode' => 'U00',
+	'parent' => 'gemeenten',
+	'children' => [
+		'bergenA1',
+	]
+];
+
+/*------------------------------ Wonen met Persoonlijke Zorg ------------------------------*/
+
+$bergenA1 = [
+	'link_title' => 'Wonen met Persoonlijke Zorg',
+	'mapdistrict' => 'bergen',
+	'title_too_long' => true,
+	'title' => 'De Marke',
+	'vimeo' => '155702401',
+	'adress' => 'bergenA1.php',
+	'type' => 'woning',
+	'type_alt' => 'single',
+	'cookiecode' => 'BGA1',
+	'parent' => 'bergen',
 	'children' => []
 ];
 

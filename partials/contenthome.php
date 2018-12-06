@@ -66,7 +66,7 @@
 			<div class="vim-head">
 				<h2>Selecteer een gemeente op de kaart </h2>
 			</div>
-			<div class="vim-body-map">
+			<div class="vim-body-map vim-body-map-animate">
 				<?php
 					include 'partials/kaart.php';
 				?>

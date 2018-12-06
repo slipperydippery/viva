@@ -129,7 +129,7 @@ img.pause {
 }
 
 .vim-overlay {
-    opacity: 0;
+    opacity: 1;
     z-index: 100;
     background: rgba(255, 255, 255, .4);
     transition: opacity 2s
@@ -167,8 +167,15 @@ img.pause {
     width: 100%;
 }
 
+.vim-body-map svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 .vim-element__wrap {
-    margin: 30px 0 0 32px;
+    float: right;
+    margin: 30px 32px 0 0px;
     vertical-align: top;
     width: 200px;
     height: 175px
@@ -530,7 +537,7 @@ textarea {
 #hover_1_ {
     display: none;
 }
-#beverwijk:hover #hover_1_{
+#bever:hover #hover_1_{
     display: block;
 }
 #hover_2_ {
@@ -542,7 +549,7 @@ textarea {
 #hover_3_ {
     display: none;
 }
-#castricum:hover #hover_3_{
+#caslimak:hover #hover_3_{
     display: block;
 }
 #hover_4_ {
@@ -582,11 +589,68 @@ textarea {
   15% { transform:scale(1,1);}
   20% { transform:scale(1.2,1.2);}
   45% { transform:scale(1,1);}
-} 
-
-.dot {
-  animation: hideshow 2.5s ease infinite;
 }
+
+/**
+ * ----------------------------------------
+ * animation slide-in-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/**
+ * ----------------------------------------
+ * animation fade-in
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+.vim-body-map-animate .slide-in-top {
+    -webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
 .dot:hover .dot{
     animation: none;
 }
@@ -595,28 +659,71 @@ textarea {
 }
 #dot_2_ {
     transform-origin: 165.963px 134.315px;
-    /*animation-delay: .1s;*/
+    animation-delay: .1s;
 }
 #dot_4_ {
     transform-origin: 170.963px 180.366px;
-    /*animation-delay: .2s;*/
+    animation-delay: .2s;
 }
 #dot_3_ {
     transform-origin: 144.176px 250.754px;
-    /*animation-delay: .3s;*/
+    animation-delay: .3s;
 }
 #dot_6_ {
     transform-origin: 170.963px 267.916px;
-    /*animation-delay: .4s;*/
+    animation-delay: .4s;
 }
 #dot_5_ {
     transform-origin: 152.757px 288.716px;
-    /*animation-delay: .5s;*/
+    animation-delay: .5s;
 }
 #dot_1_ {
     transform-origin: 131.097px 309.593px;
-    /*animation-delay: .6s;*/
+    animation-delay: .6s;
 }
+
+.vim-body-map-beverwijk #bever .hover{
+    display: block;
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation-delay: 1s;
+} 
+.vim-body-map-caslimak #caslimak .hover{
+    display: block;
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation-delay: 1s;
+} 
+.vim-body-map-heemskerk #heemskerk .hover{
+    display: block;
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation-delay: 1s;
+} 
+.vim-body-map-heerhugowaard #heerhugowaard .hover{
+    display: block;
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation-delay: 1s;
+} 
+.vim-body-map-heiloo #heiloo .hover{
+    display: block;
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation-delay: 1s;
+} 
+.vim-body-map-uitgeest #uitgeest .hover{
+    display: block;
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation-delay: 1s;
+} 
+.vim-body-map-bergen #bergen .hover{
+    display: block;
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation-delay: 1s;
+} 
 
 
 
