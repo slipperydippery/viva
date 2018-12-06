@@ -62,7 +62,7 @@
 				$overlay_visibility = "style='left:0px; opacity: 1;'";
 			}
 ?>		
-		<div class="vim-overlay vim-overlay--full" <?=$overlay_visibility?> >
+		<div class="vim-overlay vim-overlay--full" style='left:0px; opacity: 1;' <?=$overlay_visibility?> >
 			<div class="vim-head">
 				<h2>Selecteer een gemeente op de kaart </h2>
 			</div>
