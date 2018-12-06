@@ -97,7 +97,7 @@ $(function() {
         post('addEventListener', 'playProgress');
         console.log('------------------------------------------------------------------------------------');
         // if (current_visited == false)
-        if (true)
+        if (false)
         {
         	console.log('onReady() page has not yet been visited, so: autoplay');
             post('play');   
