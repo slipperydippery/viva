@@ -95,7 +95,9 @@ $(function() {
         post('addEventListener', 'pause');
         post('addEventListener', 'finish');
         post('addEventListener', 'playProgress');
-        if (current_visited == false)
+        console.log('------------------------------------------------------------------------------------');
+        // if (current_visited == false)
+        if (true)
         {
         	console.log('onReady() page has not yet been visited, so: autoplay');
             post('play');   
@@ -162,6 +164,13 @@ $(function() {
         post('play');
     });
 
+    $('.textplay').on('click', function(){
+        console.log('play');
+        $('.vim-overlay').css("left", -10000);
+        $('.vim-overlay').css("opacity", 0);
+        post('play');
+    });
+
     $('img.pause').on('click', function(){
         post('pause');
     });
@@ -176,6 +185,7 @@ $(function() {
     $('.vim-overlay').on('click', function () {
         // post('play');
     });
+
 
     /**
      * detect IE

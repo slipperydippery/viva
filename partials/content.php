@@ -134,7 +134,9 @@
 						}
 					}
 ?>
-
+				<div class="bekijk textplay">
+					Bekijk de film >>
+				</div>
 
 			</div>  <!-- .vim-body -->
 <?php

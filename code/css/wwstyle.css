@@ -91,6 +91,25 @@ a.vimeo-button {
     transition: opacity 2s
 }
 
+.bekijk {
+    position: absolute;
+    left: 68px;
+    bottom: 100px;
+    padding: 1rem;
+    color: #ec174e;
+    border: 2px solid #ec174e;
+    font-size: 2.3em;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: white;
+    cursor: pointer;
+}
+.bekijk:hover {
+    bottom: 98px;
+    color: #da0a40;
+    border: 2px solid #da0a40;
+}
+
 .vim-preplay {
     left: 440px;
     top: 200px;
@@ -117,6 +136,10 @@ img.playpause {
     height: 100%;
     position: absolute;
     width: 100%
+}
+img.playpause {
+    width: 65px;
+    height: 40px;
 }
 
 img.play {
@@ -180,6 +203,7 @@ img.pause {
     width: 200px;
     height: 175px
 }
+
 
 .vim-element {
     position: relative;
