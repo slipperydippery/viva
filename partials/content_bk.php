@@ -78,17 +78,9 @@
 <?php
 			$blanco = ($current['type'] != 'blanco_overzicht') ? 'playclick' : '';		
 ?>
-				<div class="vim-element__wrap vim-element--single__wrap playclick">
-				<div class="vim-element vim-element--single">
-					<a href="#" class="choice "> 
-						<img src="<?= $thumbnail[0]['thumbnail_large'] ?>" class="vimeo-thumb vimeo-thumb--home" title="" style="">
-					</a>
-					<a href="beverA1.php" class="vim-element__txt "> 
-						Bekijk: <?= $current['title'] ?>
-			    	</a>
+				<div class="bekijk textplay">
+					Bekijk de film >>
 				</div>
-			</div>
-			<div style="width:100%; clear:both; padding-top:15px;"></div>
 				<!-- <div class="vim-playclick <?= $blanco ?>"></div> -->
 <?php 
 				$optie_counter = 1;
@@ -101,12 +93,13 @@
 						$thumbnail = unserialize(file_get_contents("https://vimeo.com/api/v2/video/$imgid.php"));
 ?>
 						<div class="vim-element__wrap">
-							<div class="vim-element vim-element--noimg">
+							<div class="vim-element">
 <?php
 								if($child['cookiecode'] == $current['cookiecode'])
 								{
 ?>
 						    	<a href="<?= $child['adress'] ?>?replay=1" class="choice"> 
+						    		<img src="<?= $thumbnail[0]['thumbnail_medium'] ?>" class="vimeo-thumb" />
 						    	</a>
 <?php									
 								}
@@ -114,6 +107,7 @@
 								{
 ?>
 						    	<a href="<?= $child['adress'] ?>" class="choice "> 
+						    		<img src="<?= $thumbnail[0]['thumbnail_medium'] ?>" class="vimeo-thumb" />
 						    	</a>
 <?php
 						    	}

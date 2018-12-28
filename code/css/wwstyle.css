@@ -198,10 +198,10 @@ img.pause {
 
 .vim-element__wrap {
     float: right;
-    margin: 30px 32px 0 0px;
+    margin: 15px 32px 0 0px;
     vertical-align: top;
     width: 200px;
-    height: 175px
+    /*height: 175px*/
 }
 
 
@@ -215,6 +215,10 @@ img.pause {
     border: 6px solid #fff
 }
 
+.vim-element--noimg {
+    height: 35px;
+}
+
 .vim-element__wrap:hover .vim-element {
     margin-top: 1px
 }
@@ -224,7 +228,8 @@ img.pause {
     height: 250px;
     float: right;
     margin-right: 50px;
-    margin-top: 200px;
+    margin-top: 40px;
+    /*margin-top: 200px;*/
 }
 
 .vim-element--single {
