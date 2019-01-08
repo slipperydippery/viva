@@ -135,7 +135,8 @@
 					}
 ?>
 				<div class="bekijk textplay">
-					Bekijk de film >>
+					<span class="title"><?= $current['title'] ?></span> <br>
+					<span>Bekijk de film >></span>
 				</div>
 
 			</div>  <!-- .vim-body -->
