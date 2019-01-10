@@ -92,7 +92,8 @@
 				<!-- <div class="vim-playclick <?= $blanco ?>"></div> -->
 <?php 
 				$optie_counter = 1;
-				if($current['children'] !== null || $current['type'] == 'woning'){
+				if($current['children'] !== null || $current['type'] == 'woning' ){
+					if($current['title'] != 'Bergen'){
 					$options = $current['type'] == 'woning' ? $parent['children'] : $current['children'];
 					foreach ($options as $child) {
 						$child = $$child;
@@ -141,6 +142,7 @@
 							}
 							$optie_counter++;
 						}
+					}
 					}
 ?>
 

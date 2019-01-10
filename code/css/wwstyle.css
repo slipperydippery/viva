@@ -99,7 +99,7 @@ a.vimeo-button {
     color: #ec174e;
     border: 2px solid #ec174e;
     font-size: 2.3em;
-    font-weight: 700;
+    font-weight: 500;
     text-transform: uppercase;
     background: white;
     cursor: pointer;
@@ -108,6 +108,14 @@ a.vimeo-button {
     bottom: 98px;
     color: #da0a40;
     border: 2px solid #da0a40;
+}
+.bekijk span {
+    display: inline-block; ;
+}
+.bekijk span.title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .vim-preplay {
@@ -225,7 +233,7 @@ img.pause {
 
 .vim-element--single__wrap {
     width: 300px;
-    height: 250px;
+    height: 210px;
     float: right;
     margin-right: 50px;
     margin-top: 40px;
@@ -242,8 +250,8 @@ img.pause {
 }
 
 .vimeo-thumb--home {
-    width: 312px;
-    height: 262px;
+    width: 320px;
+    height: 180px;
 }
 
 .vim-element__txt {
