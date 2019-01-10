@@ -192,7 +192,7 @@
 <?php
 			}
 ?>
-		<span>Klik in het scherm als de film niet automatisch start</span>
+		
 	</div>
 	<div class="vim-infoblock-container vim-infoblock-container--left">
 	    <div class="vim-controls vim-infoblock">

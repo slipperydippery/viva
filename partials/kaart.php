@@ -398,9 +398,9 @@
 	<g id="caslimak">
 		<g class="hover" id="hover_3_">
 			<rect x="132.595" y="239.172" style="fill:#ED174F;" width="23.162" height="23.164"/>
-			<polygon style="fill:#ED174F;" points="358.813,266.941 168.87,266.941 159.382,251.775 168.87,236.608 358.813,236.608 		"/>
+			<polygon style="fill:#ED174F;" points="400.813,266.941 168.87,266.941 159.382,251.775 168.87,236.608 400.813,236.608 		"/>
 			<polygon style="fill:none;" points="405.254,279.256 176.254,279.256 184.254,244.256 413.254,244.256 		"/>
-			<text transform="matrix(1 0 0 1 183.9609 257.1436)" style="fill:#FFFFFF; font-family:'Arial'; font-size:18;">Castricum/Limmen</text>
+			<text transform="matrix(1 0 0 1 183.9609 257.1436)" style="fill:#FFFFFF; font-family:'Arial'; font-size:18;">Omgeving Castricum</text>
 		</g>
 		<circle class="dot slide-in-top" id="dot_3_" style="fill:#FFFFFF;" cx="144.176" cy="250.754" r="8.581"/>
 	</g>
