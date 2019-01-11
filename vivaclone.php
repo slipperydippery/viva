@@ -48,7 +48,7 @@ ga("send","pageview");
 <div class="wrapper" id="vervolg">
 	<div class="layout">
 		<div class="content vervolg">
-			<iframe id="iframe" frameborder="0" scrolling="no" seamless="seamless" src="https://viva.hunterandmiller.nl/index.php" height="1140" width="960"></iframe>
+			<iframe id="iframe" frameborder="0" scrolling="no" seamless="seamless" src="index.php" height="1140" width="960"></iframe>
 		</div>
 	</div>
 </div>
