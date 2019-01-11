@@ -598,6 +598,9 @@ textarea {
 #hover {
     display: none;
 }
+#heerhugowaard {
+    transform: translate(0px, -15px);
+}
 #heerhugowaard:hover #hover{
     display: block;
 }
