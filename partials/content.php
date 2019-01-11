@@ -81,6 +81,7 @@
 				<div class="vim-element__wrap vim-element--single__wrap playclick">
 				<div class="vim-element vim-element--single">
 					<a href="#" class="choice "> 
+						<img src="img/vimeo_play_purple.png" class="vim-element--playbutton" alt="">
 						<img src="<?= $thumbnail[0]['thumbnail_large'] ?>" class="vimeo-thumb vimeo-thumb--home" title="" style="">
 					</a>
 					<a href="beverA1.php" class="vim-element__txt "> 
