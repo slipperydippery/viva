@@ -244,6 +244,12 @@ img.pause {
 
 }
 
+.vim-element--playbutton {
+    position: absolute;
+    left: 120px;
+    top: 70px;
+}
+
 .vimeo-thumb {
     width: 200px;
     height: 150px
