@@ -341,78 +341,79 @@
 </g>
 <a href="uitgeest.php" class="index" id="index"  onClick="window.location='uitgeest.php';" >
 	<g id="uitgeest">
-		<g class="hover fade-in" id="hover_6_">
-			<rect x="159.382" y="249.335" style="fill:#ED174F;" width="23.162" height="23.162"/>
-			<polygon class="flag" style="fill:#ED174F;" points="391.397,275.839 196.994,275.839 186.397,262.339 196.994,248.839 391.397,248.839 		"/>
-			<polygon style="fill:none;" points="432.27,289.82 203.27,289.82 211.27,256.82 440.27,256.82 		"/>
-			<text transform="matrix(1 0 0 1 210.9932 268.2754)" style="fill:#FFFFFF; font-family:'Arial'; font-size:16;">Uitgeest</text>
+		<g class="hover" id="hover_6_">
+			<rect x="159.382" y="256.335" style="fill:#ED174F;" width="23.162" height="23.162"/>
+			<polygon style="fill:#ED174F;" points="369.937,284.506 195.885,284.506 186.397,269.339 195.885,254.172 369.937,254.172 		"/>
+			<polygon style="fill:none;" points="432.27,296.82 203.27,296.82 211.27,261.82 440.27,261.82 		"/>
+			<text transform="matrix(1 0 0 1 210.9761 274.709)" style="fill:#FFFFFF; font-family:'Arial'; font-size:18;">Uitgeest</text>
 		</g>
-		<circle class="dot slide-in-top" id="dot_6_" style="fill:#FFFFFF;" cx="170.963" cy="260.916" r="8.581"/>
+		<circle class="dot slide-in-top" id="dot_6_" style="fill:#FFFFFF;" cx="170.963" cy="267.916" r="8.581"/>
 	</g>
 </a>
 <a href="heemskerk.php" class="index" id="index"  onClick="window.location='heemskerk.php';" >
-<g id="heemskerk">
-		<g class="hover fade-in" id="hover_5_">
-			<rect x="141.176" y="279.135" style="fill:#ED174F;" width="23.162" height="23.162"/>
-			<polygon class="flag" style="fill:#ED174F;" points="373.338,304.64 178.935,304.64 168.338,291.14 178.935,277.64 373.338,277.64 		"/>
-			<polygon style="fill:none;" points="414.21,318.621 185.21,318.621 193.21,285.621 422.21,285.621 		"/>
-			<text transform="matrix(1 0 0 1 192.9336 297.0762)" style="fill:#FFFFFF; font-family:'Arial'; font-size:16;">Heemskerk</text>
+	<g id="heemskerk">
+		<g class="hover" id="hover_5_">
+			<rect x="141.176" y="277.135" style="fill:#ED174F;" width="23.162" height="23.162"/>
+			<polygon style="fill:#ED174F;" points="351.877,304.307 177.825,304.307 168.338,289.14 177.825,273.973 351.877,273.973 		"/>
+			<polygon style="fill:none;" points="414.21,316.621 185.21,316.621 193.21,281.621 422.21,281.621 		"/>
+			<text transform="matrix(1 0 0 1 192.9165 294.5098)" style="fill:#FFFFFF; font-family:'Arial'; font-size:18;">Heemskerk</text>
 		</g>
-		<circle class="dot slide-in-top" id="dot_5_" style="fill:#FFFFFF;" cx="152.757" cy="290.716" r="8.581"/>
+		<circle class="dot slide-in-top" id="dot_5_" style="fill:#FFFFFF;" cx="152.757" cy="288.716" r="8.581"/>
 	</g>
 </a>
 <a href="heerhugowaard.php" class="index" id="index"  onClick="window.location='heerhugowaard.php';" >
 	<g id="heerhugowaard">
-		<g class="hover fade-in" id="hover">
-			<polygon class="flag" style="fill:#ED174F;" points="426.564,126.658 232.161,126.658 221.564,113.158 232.161,99.658 426.564,99.658 		"/>
-			<polygon style="fill:none;" points="467.436,142.64 238.436,142.64 246.436,107.64 475.436,107.64 		"/>
-			<text transform="matrix(1 0 0 1 246.1753 119.0957)" style="fill:#FFFFFF; font-family:'Arial'; font-size:16;">Heerhugowaard</text>
-			<rect x="194.453" y="102.154" style="fill:#ED174F;" width="23.162" height="23.161"/>
+		<g class="hover" id="hover">
+			<polygon style="fill:#ED174F;" points="405.103,147.324 231.051,147.324 221.564,132.158 231.051,116.991 405.103,116.991 		"/>
+			<polygon style="fill:none;" points="467.436,159.64 238.436,159.64 246.436,124.64 475.436,124.64 		"/>
+			<text transform="matrix(1 0 0 1 246.1426 137.5273)" style="fill:#FFFFFF; font-family:'Arial'; font-size:18;">Heerhugowaard</text>
+			<rect x="194.453" y="121.154" style="fill:#ED174F;" width="23.162" height="23.161"/>
 		</g>
-		<circle class="dot slide-in-top" id="dot" style="fill:#FFFFFF;" cx="206.034" cy="113.735" r="8.581"/>
+		<circle class="dot slide-in-top" id="dot" style="fill:#FFFFFF;" cx="206.034" cy="132.735" r="8.581"/>
 	</g>
 </a>
 <a href="heiloo.php" class="index" id="index"  onClick="window.location='heiloo.php';" >
 	<g id="heiloo">
-		<g class="hover fade-in" id="hover_4_">
+		<g class="hover" id="hover_4_">
 			<rect x="159.382" y="168.786" style="fill:#ED174F;" width="23.162" height="23.162"/>
-			<polygon class="flag" style="fill:#ED174F;" points="391.397,194.29 196.994,194.29 186.397,180.79 196.994,167.29 391.397,167.29 		"/>
-			<polygon style="fill:none;" points="432.27,210.271 203.27,210.271 211.27,175.271 440.27,175.271 		"/>
-			<text transform="matrix(1 0 0 1 211.0088 186.7275)" style="fill:#FFFFFF; font-family:'Arial'; font-size:16;">Heiloo</text>
+			<polygon style="fill:#ED174F;" points="369.937,195.956 195.885,195.956 186.397,180.79 195.885,165.623 369.937,165.623 		"/>
+			<polygon style="fill:none;" points="432.27,208.271 203.27,208.271 211.27,173.271 440.27,173.271 		"/>
+			<text transform="matrix(1 0 0 1 210.9761 186.1592)" style="fill:#FFFFFF; font-family:'Arial'; font-size:18;">Heiloo</text>
 		</g>
 		<circle class="dot slide-in-top" id="dot_4_" style="fill:#FFFFFF;" cx="170.963" cy="180.366" r="8.581"/>
 	</g>
 </a>
 <a href="bergen.php" class="index" id="index"  onClick="window.location='bergen.php';" >
 	<g id="bergen">
-		<g class="hover fade-in" id="hover_2_">
-			<rect x="154.382" y="129.735" style="fill:#ED174F;" width="23.162" height="23.162"/>
-			<polygon class="flag" style="fill:#ED174F;" points="386.544,155.482 192.141,155.482 181.544,141.982 192.141,128.482 386.544,128.482 		"/>
-			<polygon style="fill:none;" points="427.417,171.464 198.417,171.464 206.417,136.464 435.417,136.464 		"/>
-			<text transform="matrix(1 0 0 1 206.1558 147.9199)" style="fill:#FFFFFF; font-family:'Arial'; font-size:16;">Bergen</text>
+		<g class="hover" id="hover_2_">
+			<rect x="154.382" y="122.735" style="fill:#ED174F;" width="23.162" height="23.162"/>
+			<polygon style="fill:#ED174F;" points="365.083,150.148 191.032,150.148 181.544,134.982 191.032,119.815 365.083,119.815 		"/>
+			<polygon style="fill:none;" points="427.417,162.464 198.417,162.464 206.417,127.464 435.417,127.464 		"/>
+			<text transform="matrix(1 0 0 1 206.123 140.3516)" style="fill:#FFFFFF; font-family:'Arial'; font-size:18;">Bergen</text>
 		</g>
-		<circle class="dot slide-in-top" id="dot_2_" style="fill:#FFFFFF;" cx="165.963" cy="141.315" r="8.581"/>
+		<circle class="dot slide-in-top" id="dot_2_" style="fill:#FFFFFF;" cx="165.963" cy="134.315" r="8.581"/>
 	</g>
 </a>
 <a href="caslimak.php" class="index" id="index"  onClick="window.location='caslimak.php';" >
 	<g id="caslimak">
-		<g class="hover fade-in" id="hover_3_">
-			<rect x="132.595" y="221.172" style="fill:#ED174F;" width="23.162" height="23.164"/>
-			<polygon class="flag" style="fill:#ED174F;" points="364.382,247.274 169.135,247.274 159.382,233.775 169.135,220.274 364.382,220.274 		"/>
-			<polygon style="fill:none;" points="405.254,263.256 176.254,263.256 184.254,228.256 413.254,228.256 		"/>
-			<text transform="matrix(1 0 0 1 183.9937 239.7114)" style="fill:#FFFFFF; font-family:'Arial'; font-size:16;">Omgeving Castricum</text>
+		<g class="hover" id="hover_3_">
+			<rect x="132.595" y="239.172" style="fill:#ED174F;" width="23.162" height="23.164"/>
+			<polygon style="fill:#ED174F;" points="400.813,266.941 168.87,266.941 159.382,251.775 168.87,236.608 400.813,236.608 		"/>
+			<polygon style="fill:none;" points="405.254,279.256 176.254,279.256 184.254,244.256 413.254,244.256 		"/>
+			<text transform="matrix(1 0 0 1 183.9609 257.1436)" style="fill:#FFFFFF; font-family:'Arial'; font-size:18;">Omgeving Castricum</text>
 		</g>
-		<circle class="dot slide-in-top" id="dot_3_" style="fill:#FFFFFF;" cx="144.176" cy="232.754" r="8.581"/>
+		<circle class="dot slide-in-top" id="dot_3_" style="fill:#FFFFFF;" cx="144.176" cy="250.754" r="8.581"/>
 	</g>
 </a>
 <a href="bever.php" class="index" id="index"  onClick="window.location='bever.php';" >
 	<g id="bever">
-		<g class="hover fade-in" id="hover_1_">
-			<rect x="119.516" y="308.012" style="fill:#ED174F;" width="23.162" height="23.161"/>
-			<polygon class="flag" style="fill:#ED174F;" points="352.176,333.039 157.772,333.039 147.176,319.539 157.772,306.039 352.176,306.039 		"/>
-			<polygon style="fill:none;" points="393.048,349.021 164.048,349.021 172.048,314.021 401.048,314.021 		"/>
-			<text transform="matrix(1 0 0 1 171.7871 325.4766)" style="fill:#FFFFFF; font-family:'Arial'; font-size:16;">Beverwijk</text>
+		<g class="hover" id="hover_1_">
+			<rect x="119.516" y="298.012" style="fill:#ED174F;" width="23.162" height="23.161"/>
+			<polygon style="fill:#ED174F;" points="330.715,324.705 156.663,324.705 147.176,309.539 156.663,294.372 330.715,294.372 		"/>
+			<polygon style="fill:none;" points="393.048,337.021 164.048,337.021 172.048,302.021 401.048,302.021 		"/>
+			<text transform="matrix(1 0 0 1 171.7544 314.9082)" style="fill:#FFFFFF; font-family:'Arial'; font-size:18;">Beverwijk</text>
 		</g>
-		<circle class="dot slide-in-top" id="dot_1_" style="fill:#FFFFFF;" cx="131.097" cy="319.593" r="8.581"/>
+		<circle class="dot slide-in-top" id="dot_1_" style="fill:#FFFFFF;" cx="131.097" cy="309.593" r="8.581"/>
 	</g>
+</a>
 </svg>

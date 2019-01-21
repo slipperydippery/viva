@@ -89,7 +89,11 @@
 			    	</a>
 				</div>
 			</div>
-			<div style="width:100%; clear:both; padding-top:15px;"></div>
+			<div class="explaintext">
+				Met deze woonwijzer kunt u de woonzorglocaties zien die bij u passen. Selecteer een gemeente waar u graag zou willen wonen.
+			</div>
+			<div style="width:100%; clear:both; padding-top:15px;">
+			</div>
 				<!-- <div class="vim-playclick <?= $blanco ?>"></div> -->
 <?php 
 				$optie_counter = 1;

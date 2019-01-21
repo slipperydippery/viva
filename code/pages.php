@@ -174,11 +174,11 @@ $beverA4 = [
 	'children' => []
 ];
 
-/*------------------------------ Wonen met Persoonlijke Zorg ------------------------------*/
+/*------------------------------ Persoonlijke Zorg ------------------------------*/
 $beverB1 = [
-	'title' => 'Wonen met Persoonlijke Zorg',
+	'title' => 'Persoonlijke Zorg',
 	'mapdistrict' => 'beverwijk',
-	'title_too_long' => true,
+	
 	'vimeo' => '151518177',
 	'adress' => 'beverB1.php',
 	'type' => 'subsidie_overzicht',
@@ -299,9 +299,9 @@ $beverE5 = [
 	'children' => []
 ];
 
-/*------------------------------ Wonen zonder Zorg ------------------------------*/
+/*------------------------------ Zonder Zorg ------------------------------*/
 $beverF1 = [
-	'title' => 'Wonen zonder Zorg',
+	'title' => 'Zonder Zorg',
 	'mapdistrict' => 'beverwijk',
 	'vimeo' => '151518174',
 	'adress' => 'beverF1.php',
@@ -368,7 +368,7 @@ $beverH3 = [
 $caslimak = [
 	'title' => 'Castricum / Limmen / Akersloot',
 	'mapdistrict' => 'caslimak',
-	'title_too_long' => true,
+	
 	'vimeo' => '151522762',
 	'adress' => 'caslimak.php',
 	'type' => 'zorg_overzicht',
@@ -420,12 +420,12 @@ $caslimakA3 = [
 	'children' => []
 ];
 
-/*------------------------------ Wonen met Persoonlijke Zorg ------------------------------*/
+/*------------------------------ Persoonlijke Zorg ------------------------------*/
 
 $caslimakB1 = [
-	'title' => 'Wonen met Persoonlijke Zorg',
+	'title' => 'Persoonlijke Zorg',
 	'mapdistrict' => 'caslimak',
-	'title_too_long' => true,
+	
 	'vimeo' => '151522763',
 	'adress' => 'caslimakB1.php',
 	'type' => 'subsidie_overzicht',
@@ -560,10 +560,10 @@ $caslimakE4 = [
 ];
 
 
-/*------------------------------ Wonen zonder Zorg ------------------------------*/
+/*------------------------------ Zonder Zorg ------------------------------*/
 
 $caslimakF1 = [
-	'title' => 'Wonen zonder Zorg',
+	'title' => 'Zonder Zorg',
 	'mapdistrict' => 'caslimak',
 	'vimeo' => '153550907',
 	'adress' => 'caslimakF1.php',
@@ -720,12 +720,12 @@ $heemskerkA4 = [
 ];
 
 
-/*------------------------------ Wonen met Persoonlijke Zorg ------------------------------*/
+/*------------------------------ Persoonlijke Zorg ------------------------------*/
 
 $heemskerkB1 = [
-	'title' => 'Wonen met Persoonlijke Zorg',
+	'title' => 'Persoonlijke Zorg',
 	'mapdistrict' => 'heemskerk',
-	'title_too_long' => true,
+	
 	'vimeo' => '153771804',
 	'adress' => 'heemskerkB1.php',
 	'type' => 'subsidie_overzicht',
@@ -850,10 +850,10 @@ $heemskerkE6 = [
 	'children' => []
 ];
 
-/*------------------------------ Wonen zonder Zorg ------------------------------*/
+/*------------------------------ Zonder Zorg ------------------------------*/
 
 $heemskerkF1 = [
-	'title' => 'Wonen zonder Zorg',
+	'title' => 'Zonder Zorg',
 	'mapdistrict' => 'heemskerk',
 	'vimeo' => '153814186',
 	'adress' => 'heemskerkF1.php',
@@ -961,12 +961,12 @@ $heiloo = [
 	]
 ];
 
-/*------------------------------ Wonen met Persoonlijke Zorg ------------------------------*/
+/*------------------------------ Persoonlijke Zorg ------------------------------*/
 
 $heilooA1 = [
-	'title' => 'Wonen met Persoonlijke Zorg',
+	'title' => 'Persoonlijke Zorg',
 	'mapdistrict' => 'heiloo',
-	'title_too_long' => true,
+	
 	'vimeo' => '310058904',
 	'adress' => 'heilooA1.php',
 	'type' => 'woning_overzicht',
@@ -1067,7 +1067,7 @@ $heilooD3 = [
 /*------------------------------ Zonder Zorg ------------------------------*/
 
 $heilooE2 = [
-	'title' => 'Wonen zonder Zorg',
+	'title' => 'Zonder Zorg',
 	'mapdistrict' => 'heiloo',
 	'vimeo' => '310061386',
 	'adress' => 'heilooE2.php',
@@ -1150,12 +1150,12 @@ $uitgeest = [
 	]
 ];
 
-/*------------------------------ Wonen met Persoonlijke Zorg ------------------------------*/
+/*------------------------------ Persoonlijke Zorg ------------------------------*/
 
 $uitgeestA1A2 = [
-	'link_title' => 'Wonen met Persoonlijke Zorg',
+	'link_title' => 'Persoonlijke Zorg',
 	'mapdistrict' => 'uitgeest',
-	'title_too_long' => true,
+	
 	'title' => 'Geesterheem',
 	'vimeo' => '155702401',
 	'adress' => 'uitgeestA1A2.php',
@@ -1182,10 +1182,10 @@ $uitgeestB1B2 = [
 ];
 
 
-/*------------------------------ Wonen zonder Zorg ------------------------------*/
+/*------------------------------ Zonder Zorg ------------------------------*/
 
 $uitgeestC1C2 = [
-	'link_title' => 'Wonen zonder Zorg',
+	'link_title' => 'Zonder Zorg',
 	'mapdistrict' => 'uitgeest',
 	'title' => 'Geesterheem',
 	'vimeo' => '155702404',
@@ -1215,12 +1215,12 @@ $bergen = [
 	]
 ];
 
-/*------------------------------ Wonen met Persoonlijke Zorg ------------------------------*/
+/*------------------------------ Persoonlijke Zorg ------------------------------*/
 
 $bergenA1 = [
-	'link_title' => 'Wonen met Persoonlijke Zorg',
+	'link_title' => 'Persoonlijke Zorg',
 	'mapdistrict' => 'bergen',
-	'title_too_long' => true,
+	
 	'title' => 'De Marke',
 	'vimeo' => '155702401',
 	'adress' => 'bergenA1.php',
