@@ -366,7 +366,7 @@ $beverH3 = [
 /*                                  CASLIMAKE                                  */
 /*-----------------------------------------------------------------------------*/
 $caslimak = [
-	'title' => 'Castricum / Limmen / Akersloot',
+	'title' => 'Omgeving Castricum',
 	'mapdistrict' => 'caslimak',
 	
 	'vimeo' => '312698400',
@@ -855,7 +855,7 @@ $heemskerkE6 = [
 $heemskerkF1 = [
 	'title' => 'Zonder Zorg',
 	'mapdistrict' => 'heemskerk',
-	'vimeo' => '153814186',
+	'vimeo' => '312719760',
 	'adress' => 'heemskerkF1.php',
 	'type' => 'woning_overzicht',
 	'cookiecode' => 'HF1',
