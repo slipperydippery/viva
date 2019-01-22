@@ -84,6 +84,9 @@
 			    	</a>
 				</div>
 			</div>
+			<div class="explaintext explaintext--home">
+				Met deze woonwijzer kunt u de woonzorglocaties zien die bij u passen. Selecteer een gemeente waar u graag zou willen wonen.
+			</div>
 
 			<a href="#" class="vim-post-controls vim-post-controls--replay" id="replay">
 				<img src="img/replay.png" />
@@ -125,7 +128,7 @@
 <?php
 			}
 ?>
-		<span>Klik in het scherm als de film niet automatisch start</span>
+		
 	</div>
 	<div class="vim-infoblock-container vim-infoblock-container--left">
 	    <div class="vim-controls vim-infoblock">

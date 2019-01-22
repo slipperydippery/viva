@@ -578,20 +578,23 @@ textarea {
 
 .explaintext {
     position: absolute;
-    bottom: 77px;
-    left: 50px;
+    bottom: 57px;
+    left: 0;
+    right: 0;
     z-index: 10;
     color: white;
     font-size: 1rem;
     background: #ed174f;
     display: block;
-    width: 400px;
+    /* width: 400px; */
     /* height: 90px; */
     padding: 10px 20px;
     box-sizing: border-box;
     text-align: left;
-    border: 4px solid white;
-
+    border-top: 1px solid white;
+}
+.explaintext--home {
+    bottom: 0;
 }
 
 #hover_1_ {
@@ -780,6 +783,8 @@ textarea {
     stroke-width: 1px;
 } 
 .vim-body-map #bever:hover .hover .flag{
+    /*-webkit-transform: translateY(2px);
+            transform: translateY(2px);*/
     opacity: 1;
 } 
 .vim-body-map-caslimak #caslimak .hover .flag{
@@ -788,6 +793,8 @@ textarea {
     stroke-width: 1px;
 } 
 .vim-body-map #caslimak:hover .hover .flag{
+    /*-webkit-transform: translateY(2px);
+            transform: translateY(2px);*/
     opacity: 1;
 } 
 .vim-body-map-heemskerk #heemskerk .hover .flag{
@@ -796,6 +803,8 @@ textarea {
     stroke-width: 1px;
 } 
 .vim-body-map #heemskerk:hover .hover .flag{
+    /*-webkit-transform: translateY(2px);
+            transform: translateY(2px);*/
     opacity: 1;
 } 
 .vim-body-map-heerhugowaard #heerhugowaard .hover .flag{
@@ -804,6 +813,8 @@ textarea {
     stroke-width: 1px;
 } 
 .vim-body-map #heerhugowaard:hover .hover .flag{
+    /*-webkit-transform: translateY(2px);
+            transform: translateY(2px);*/
     opacity: 1;
 } 
 .vim-body-map-heiloo #heiloo .hover .flag{
@@ -812,6 +823,8 @@ textarea {
     stroke-width: 1px;
 } 
 .vim-body-map #heiloo:hover .hover .flag{
+    /*-webkit-transform: translateY(2px);
+            transform: translateY(2px);*/
     opacity: 1;
 } 
 .vim-body-map-uitgeest #uitgeest .hover .flag{
@@ -820,6 +833,8 @@ textarea {
     stroke-width: 1px;
 } 
 .vim-body-map #uitgeest:hover .hover .flag{
+    /*-webkit-transform: translateY(2px);
+            transform: translateY(2px);*/
     opacity: 1;
 } 
 .vim-body-map-bergen #bergen .hover .flag{
@@ -828,6 +843,8 @@ textarea {
     stroke-width: 1px;
 } 
 .vim-body-map #bergen:hover .hover .flag{
+    /*-webkit-transform: translateY(2px);
+            transform: translateY(2px);*/
     opacity: 1;
 } 
 
