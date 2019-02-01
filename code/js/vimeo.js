@@ -71,42 +71,42 @@ $(function() {
 
     // Helper function for sending a message to the player
     function post(action, value) {
-    	console.log('1. post() action: ' + action + ', value: ' + value );
+    	// console.log('1. post() action: ' + action + ', value: ' + value );
         var data = {
             method: action
         };
         if (value) {
             data.value = value;
         }
-        console.log('2. post() data: ');
-        console.log(data);
-        console.log('3. post() postMessage to player[0].contentWindow');
-        console.log('4. post() player[0]:')
-        console.log(player[0]);
-        console.log('5. post() player[0].contentWindow:');
-        console.log(player[0].contentWindow);
-        console.log('playerOrigin: ');
-        console.log(playerOrigin);
+        // console.log('2. post() data: ');
+        // console.log(data);
+        // console.log('3. post() postMessage to player[0].contentWindow');
+        // console.log('4. post() player[0]:')
+        // console.log(player[0]);
+        // console.log('5. post() player[0].contentWindow:');
+        // console.log(player[0].contentWindow);
+        // console.log('playerOrigin: ');
+        // console.log(playerOrigin);
         player[0].contentWindow.postMessage(data, 'https://player.vimeo.com');
     }
 
     function onReady() {
-        console.log('onReady(), posting 3 addEventListeners, then posting -play- ');
+        // console.log('onReady(), posting 3 addEventListeners, then posting -play- ');
         post('addEventListener', 'pause');
         post('addEventListener', 'finish');
         post('addEventListener', 'playProgress');
-        console.log('------------------------------------------------------------------------------------');
+        // console.log('------------------------------------------------------------------------------------');
         // if (current_visited == false)
         if (false)
         {
-        	console.log('onReady() page has not yet been visited, so: autoplay');
+        	// console.log('onReady() page has not yet been visited, so: autoplay');
             post('play');   
-            console.log('onReady() should be playing')
+            // console.log('onReady() should be playing')
         }
     }
 
     function onPause() {
-        $('.play').css("left", 0);
+        // $('.play').css("left", 0);
         $('.pause').css("left", -10000);
         $('.vim-preplay').css("left", -10000);
         $('.vim-overlay').css("left", 0);

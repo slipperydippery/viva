@@ -583,14 +583,14 @@ textarea {
     right: 0;
     z-index: 10;
     color: white;
-    font-size: 1rem;
+    font-size: .9rem;
+    text-align: center;
     background: #ed174f;
     display: block;
     /* width: 400px; */
     /* height: 90px; */
     padding: 10px 20px;
     box-sizing: border-box;
-    text-align: left;
     border-top: 1px solid white;
 }
 .explaintext--home {
