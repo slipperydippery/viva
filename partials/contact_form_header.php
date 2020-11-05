@@ -6,7 +6,7 @@ $mailSent = false;
 if (isset($_POST['submit']))
 {
 	// process email script:
-	$to = 'zorgbemiddeling@vivazorggroep.nl';
+	$to = 'info@vivazorggroep.nl';
 	$subject = 'ViVa! WoonWijzer Contact Formulier';
 	// list expected fields
 	$expected = ['naam', 'email', 'telefoon', 'bericht'];
