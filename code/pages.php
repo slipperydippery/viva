@@ -49,7 +49,7 @@ $beverwijk_locaties = [
 	'Huis ter Wijck',
 	'ViVa! Elsanta',
 	'Lommerlust',
-	'Breepeper'
+	// 'Breepeper'
 ];
 
 $caslimak_locaties = [
@@ -248,23 +248,23 @@ $beverE1 = [
 	'cookiecode' => 'BE1',
 	'parent' => 'bever',
 	'children' => [
-		'beverE2',
+		// 'beverE2',/
 		'beverE3',
 		'beverE4',
 		'beverE5',
 	]
 ];
 
-$beverE2 = [
-	'title' => 'Breepeper',
-	'mapdistrict' => 'beverwijk',
-	'vimeo' => '153550385',
-	'adress' => 'beverE2.php',
-	'type' => 'woning',
-	'cookiecode' => 'BE2',
-	'parent' => 'beverE1',
-	'children' => []
-];
+// $beverE2 = [
+// 	'title' => 'Breepeper',
+// 	'mapdistrict' => 'beverwijk',
+// 	'vimeo' => '153550385',
+// 	'adress' => 'beverE2.php',
+// 	'type' => 'woning',
+// 	'cookiecode' => 'BE2',
+// 	'parent' => 'beverE1',
+// 	'children' => []
+// ];
 
 $beverE3 = [
 	'title' => 'Huis ter Wijck',
